@@ -1,0 +1,60 @@
+button {
+  transition: opacity 0.5s ease;
+  border-radius: 8px;
+  padding: 8px 30px;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  color: #000;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #000;
+  border: 1px solid #fff;
+}
+
+button.fade-out {
+  opacity: 0;
+}
+
+/* DESKTOP NAVIGATION */
+#desktop-nav {
+  height: 5vh;
+  display: flex;
+  background-color: rgb(133, 133, 133);
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+  font: 400 18px Roboto, sans-serif;
+}
+
+.Nav-Logo {
+  color: #000;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Nav-Links {
+  display: flex;
+  gap: 32px;
+  color: #000;
+}
+
+.Nav-CallToAction {
+  display: flex;
+  gap: 24px;
+  text-align: center;
+}
+
+/* MOBILE NAVIGATION */
+.mobile-nav {
+  display: hidden;
+}
